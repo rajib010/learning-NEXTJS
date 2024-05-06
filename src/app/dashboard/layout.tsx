@@ -1,15 +1,14 @@
-import React from 'react'
-import HeaderComponent from '@/components/HeaderComponent'
-import FooterComponent from '@/components/FooterComponent'
+import AsideComponent from "@/component/AsideComponent";
+import HeaderComponent from "@/component/HeaderComponent";
 
-
-function layout() {
+export default function AdminLayout({children,}: Readonly<{
+    chidren: React.ReactNode;
+}>) {
   return (
     <div>
-        <h1>Home</h1>
-        
+        <HeaderComponent />
+        <AsideComponent />
+        {children}
     </div>
   )
 }
-
-export default layout

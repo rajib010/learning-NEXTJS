@@ -1,10 +1,9 @@
+import React from 'react'
 
-function page() {
+function Setting() {
   return (
-    <div>
-        <h1>Settings</h1>
-    </div>
+    <div>Setting</div>
   )
 }
 
-export default page
+export default Setting

@@ -1,11 +1,9 @@
 import React from 'react'
 
-function NotFound() {
-    return (
-        <div>
-            <h1>BCA: 404 Not Found</h1>
-        </div>
-    )
+function notFound() {
+  return (
+    <div>404 Route not fould o(￣┰￣*)ゞ</div>
+  )
 }
 
-export default NotFound;
+export default notFound
