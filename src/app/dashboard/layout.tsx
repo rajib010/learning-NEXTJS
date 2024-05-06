@@ -2,12 +2,12 @@ import React from 'react'
 import HeaderComponent from '@/components/HeaderComponent'
 import FooterComponent from '@/components/FooterComponent'
 
-const layout = () => {
+
+function layout() {
   return (
-    <div className="flex flex-col contianer">
-      <HeaderComponent />
-      <h1>Home</h1>
-      <FooterComponent/>
+    <div>
+        <h1>Home</h1>
+        
     </div>
   )
 }
